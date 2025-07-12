@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohr Farms</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    header {
+      background-color: #3e2723;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #5d4037;
+      display: flex;
+      justify-content: center;
+      gap: 1.5em;
+      padding: 1em;
+    }
+
+    nav a {
+      color: #fff3e0;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc80;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1em;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 250px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #efebe9;
+      margin-top: 2em;
+    }
+
+    .btn-home {
+      display: inline-block;
+      margin-top: 2em;
+      background-color: #6d4c41;
+      color: white;
+      padding: 0.6em 1.2em;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .btn-home:hover {
+      background-color: #8d6e63;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohr Farms</h1>
+    <p>Family-Run Cattle Operation in the Heart of Iowa</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <img src="images/farm1.jpg" alt="Main farm view" class="hero-image">
+    <h2>Welcome to Mohr Farms</h2>
+    <p>Located in the scenic countryside of Iowa, Mohr Farms is a proud family-owned cattle operation founded by Larry Mohr. With decades of dedication to responsible livestock farming, Mohr Farms continues to grow through the hard work of Larry and his sons, Joe and Chris. Whether you're a local neighbor or a curious visitor, you're invited to learn more about our family, services, and sustainable farming values.</p>
+
+    <h3>What Makes Us Different?</h3>
+    <ul>
+      <li>Multi-generational knowledge and care</li>
+      <li>Humane and sustainable cattle practices</li>
+      <li>Locally raised, high-quality Angus beef</li>
+    </ul>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mohr Farms. All rights reserved.</p>
+  </footer>
+</body>
+</html>

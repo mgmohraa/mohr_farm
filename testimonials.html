@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Testimonials - Mohr Farms</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdf6f0;
+      color: #3e2c23;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6d4c41, #a1887f);
+      color: #fff7e6;
+      padding: 2.5em 1em;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.6em;
+    }
+
+    nav {
+      background-color: #5d4037;
+      display: flex;
+      justify-content: center;
+      gap: 1.8em;
+      padding: 1.2em;
+    }
+
+    nav a {
+      color: #fff3e0;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc80;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2em auto;
+      padding: 1.5em;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.4em;
+      color: #6d4c41;
+      margin-bottom: 2em;
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2em;
+    }
+
+    .testimonial {
+      background-color: #fff8f1;
+      padding: 1.8em;
+      border-left: 6px solid #a1887f;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      position: relative;
+    }
+
+    .testimonial::before {
+      content: "“";
+      font-size: 4em;
+      color: #c1a97f;
+      position: absolute;
+      top: -20px;
+      left: 15px;
+      font-family: Georgia, serif;
+    }
+
+    .testimonial p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 0 0 1em 0;
+      padding-left: 10px;
+    }
+
+    .testimonial .author {
+      font-weight: bold;
+      text-align: right;
+      padding-right: 10px;
+      color: #6d4c41;
+    }
+
+    .btn-home {
+      display: block;
+      width: 180px;
+      margin: 3em auto 0 auto;
+      background-color: #7c5e36;
+      color: #fff7e6;
+      text-align: center;
+      padding: 0.7em;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.1em;
+      box-shadow: 0 6px 12px rgba(124, 94, 54, 0.35);
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-home:hover {
+      background-color: #c5a880;
+      color: #3e2723;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.2em;
+      background-color: #efebe9;
+      color: #4a3c31;
+      font-weight: 600;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohr Farms</h1>
+    <p>What Our Community Says</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="testimonials.html" style="color:#ffcc80;">Testimonials</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Testimonials from Our Customers</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <p>Mohr Farms has been our go-to for quality beef for over a decade. The care they put into raising their cattle shows in every cut we receive.</p>
+        <div class="author">– Susan T., Local Chef</div>
+      </div>
+      <div class="testimonial">
+        <p>I’ve worked with farms all over the Midwest, but Larry, Joe, and Chris have something special. You can feel the family pride in everything they do.</p>
+        <div class="author">– Mark L., Livestock Supplier</div>
+      </div>
+      <div class="testimonial">
+        <p>They welcomed us to tour the farm and see how they operate. As a parent, it’s reassuring to know where our food comes from—and who’s behind it.</p>
+        <div class="author">– Emily R., Farm Visitor</div>
+      </div>
+    </div>
+
+    <a href="index.html" class="btn-home">Back to Home</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mohr Farms. All rights reserved.</p>
+  </footer>
+</body>
+</html>
